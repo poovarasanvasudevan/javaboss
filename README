@@ -1,0 +1,24 @@
+****************************************************************************
+Java Yahoo! BOSS API
+****************************************************************************
+
+Date: Tue 03/03/2009
+Time: 17:19 CET
+
+1. Before building.
+
+	1. You must have a Yahoo! BOSS APP ID you can get this by registering 
+	   at the following URL : 
+			http://developer.yahoo.com/search/boss/
+
+	2. Once you have your APP ID you will need to enter it in 
+		src/com/jellymold/boss/BOSSSearch.java
+	   NOTE: If you don't do this before attempting to build the jar
+			 all your requests will return a HTTP 500
+
+	3. Check the the paths and jar locations in build.properties
+
+	4. You can build the project using ant, the default target will 
+	   create the jar file in the dist/ directory.
+
+	5. Additional ant targets include 'test' and 'javadoc'
